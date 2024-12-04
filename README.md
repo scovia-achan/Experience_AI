@@ -26,6 +26,8 @@ This project simulates a traffic light system using a **Raspberry Pi 4** and thr
 ---
 
 ## **Wiring Diagram**
+
+![Traffic Light Wiring Diagram](./src/raspberry-pi-traffic-lights.png)
 - Connect the LEDs to the Raspberry Pi GPIO pins:
   - **Green LED**: GPIO Pin `17`
   - **Amber LED**: GPIO Pin `23`
@@ -33,6 +35,7 @@ This project simulates a traffic light system using a **Raspberry Pi 4** and thr
 - The other terminal of each LED should be connected to a resistor and then to the ground.
 
 ---
+
 
 ## **Setup Instructions**
 1. **Connect the LEDs and Resistors**:

@@ -5,9 +5,10 @@ import time
 GPIO.setmode(GPIO.BCM)
 
 # Define pin numbers for lights
+green_pin = 17
 red_pin = 22
 yellow_pin = 23
-green_pin = 17
+
 
 # Set up pins as outputs and ensure they start OFF
 GPIO.setup(red_pin, GPIO.OUT)
