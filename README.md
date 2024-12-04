@@ -10,7 +10,7 @@ This project simulates a traffic light system using a **Raspberry Pi 4** and thr
   - **Green Light**: On for 4 seconds.
   - **Amber Light**: On for 2 seconds (controls the transition).
   - **Red Light**: On for 4 seconds.
-- Designed to be lightweight and easy to set up without additional libraries.
+
 
 ---
 
@@ -47,7 +47,7 @@ This project simulates a traffic light system using a **Raspberry Pi 4** and thr
 
 ## **How to Run the Code**
 1. Ensure that Python 3 is installed on your Raspberry Pi.
-2. Open a terminal and navigate to the directory containing `traffic_light.py`.
+2. Open a terminal and navigate to the directory containing `traffic_light.py` i.e. `src/traffic_light.py`
 3. Run the script using the following command:
    ```bash
    python3 traffic_light.py
